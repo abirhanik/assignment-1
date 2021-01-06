@@ -63,7 +63,6 @@ body{
 .inquiry-section{
     text-align: center;
     position: relative;
-    margin-top: 100px;
 }
 .inquiry-section img{
     height: 200px;
@@ -92,4 +91,30 @@ body{
     padding: 10px;
     border-radius: 5px;
 }
-
+.personal-skill{
+    padding: 20px;
+}
+.personal-skill h1{
+    background-color: crimson;
+    color: rgb(55, 65, 65);
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    border: 2px solid rgb(128, 0, 70);
+    border-radius: 5px;
+    padding: 20px;
+}
+.per-skill-div{
+    width: 20%;
+    margin-left: 3%;
+    text-align: justify;
+    float: left;  
+}
+.per-skill-div p{
+    border-left: 5px solid orangered;
+    padding-left: 5px;
+}
+.per-skill-div img{
+    height: 100px;
+    width: 100px;
+}
